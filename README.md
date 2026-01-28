@@ -7,7 +7,7 @@ You can run the game by opening 'index.html' in any modern browser. <br/>
 The game can also be embedded on any Squarespace site with a codeblock - tutorial not provided
 
 ## License
-Copyright (c) OzzGott, 2025
+Copyright (c) OzzGott, 2026
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to use,
