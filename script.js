@@ -21,7 +21,7 @@ const questions = [
             { name: "A", true: true, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
             { name: "B", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
             { name: "C", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
-            { name: "D", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"}
+            //{ name: "D", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"}
         ]
     },
     {
