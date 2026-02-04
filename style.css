@@ -18,10 +18,11 @@ body {
 .game-container {
     background: white;
     max-width: 600px;
-    width: 100%;
+    width: 70%;
     padding: 1rem 1.5rem;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
 }
 
 #status-bar {
@@ -73,6 +74,12 @@ body {
 .option.disabled {
     opacity: 0.5;
     pointer-events: none;
+}
+
+.explanation {
+    margin-top: 1rem;
+    text-align: center;
+    width: 200%;
 }
 
 #end-screen, #start-screen {
