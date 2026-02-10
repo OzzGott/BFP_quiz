@@ -18,30 +18,30 @@ const questions = [
         text: "Hvilke bælgfrugter har flest danskere prøvet at spise?",
         explanation: "De tre typer af bælgfrugter som flest danskere har prøvet at spise er edamamebønner, kikærter og kidneybønner. Under 5% har prøvet at spise sorterne ingridærter og gråærter.",
         options: [
-            { name: "Edamamebønner", true: true, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
-            { name: "B", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
-            { name: "C", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
-            { name: "D", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"}
+            { name: "Edamamebønner", true: true, img: "https://images.unsplash.com/photo-1730596140741-6cc4963ad816?q=80&w=1065&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+            { name: "Kikærter", true: false, img: "https://images.unsplash.com/photo-1515543904379-3d757afe72e4?q=80&w=985&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+            { name: "Baked beans", true: false, img: "https://images.unsplash.com/photo-1669655139624-7557832859db?q=80&w=1114&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+            { name: "Sortøjede bønner", true: false, img: "https://images.unsplash.com/photo-1515347272087-685ce5a1fc8b?q=80&w=986&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
         ]
     },
     {
         text: "Hvor mange danskere kender Fødevarestyrelsens officielle anbefalinger om, at man bør spise 100 gram bælgfrugter om dagen?",
         explanation: "Fødevarestyrelsen anbefaler, at man spiser mindre kød, og mere fisk og bælgfrugter. De anbefaler, at man spiser ca. 100 gram bælgfrugter om dagen. Bælgfrugterne er både en god kilde til protein og andre næringsstoffer og er samtidig blandt de fødevarer, der har det laveste klimaaftryk.",
         options: [
-            { name: "A", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
-            { name: "B", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
+            { name: "27% af befolkningen", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
+            { name: "17% af befolkningen", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
             { name: "4% af befolkningen", true: true, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
-            { name: "D", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"}
+            { name: "1,5% af befolkningen", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"}
         ]
     },
     {
         text: "Hvor i Danmark er der flest, der spiser bælgfrugter?",
         explanation: "I Region Hovedstaden er det over halvdelen, 52%, der spiser bælgfrugter ugentligt. I Region Midtjylland og Region Syddanmark er det 42%, i Region Sjælland 37% og i Region Nordjylland 32%",
         options: [
-            { name: "Region Hovedstaden", true: true, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
-            { name: "B", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
-            { name: "C", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
-            { name: "D", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"}
+            { name: "Region Hovedstaden", true: true, img: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Map_DK_Region_Hovedstaden.png" },
+            { name: "Region Midtjylland", true: false, img: "https://upload.wikimedia.org/wikipedia/commons/b/ba/Map_DK_Region_Midtjylland.png" },
+            { name: "Region Syddanmark", true: false, img: "https://upload.wikimedia.org/wikipedia/commons/3/38/Map_DK_Region_Syddanmark.png" },
+            { name: "Region Nordjylland", true: false, img: "https://upload.wikimedia.org/wikipedia/commons/8/83/Map_DK_Region_Nordjylland.png"}
         ]
     },
     {
@@ -56,7 +56,7 @@ const questions = [
     },
     {
         text: "Hvilke kantiner er bedst til at inspirere os til at spise bælgfrugter?",
-        explanation: "Forklaring på hvorfor D er korrekt",
+        explanation: "Har du selv oplevet at blive inspireret af kantinen på arbejde?",
         options: [
             { name: "Private", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
             { name: "Offentlige", true: true, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
@@ -78,8 +78,8 @@ const questions = [
         text: "Er danskerne bange for at få for få proteiner, hvis de erstatter kødet med bælgfrugter?",
         explanation: "53% af danskerne svarer, at de er uenige i, at de er bange for ikke at få nok proteiner, hvis de i nogle måltider erstatter bælgfrugter med kød. Bælgfrugterne har også et højt proteinindhold. Eksempelvis indeholder kikærter 20% protein, røde linser 27% protein og sojabønner hele 36% protein",
         options: [
-            { name: "Flertallet er bange", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
-            { name: "Flertallet er ikke bange", true: true, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
+            { name: "Flertallet er bange", true: false, img: "https://images.unsplash.com/photo-1583264277139-3d9682e44b03?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+            { name: "Flertallet er ikke bange", true: true, img: "https://images.unsplash.com/photo-1713947505435-b79c33c6c91a?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
             //{ name: "C", true: true, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
             //{ name: "D", true: true, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"}
         ]
@@ -138,7 +138,7 @@ function renderExplanation() {
 
     const resultText = lastSelectedOption.true
         ? "Korrekt! Godt klaret."
-        : `Forkert. Det rigtige svar var ${correctOption.name}.`;
+        : `Forkert. Det rigtige svar var <strong>${correctOption.name}</strong>.`;
 
     div.innerHTML = `
       <p>${resultText}</p>
