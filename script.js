@@ -140,10 +140,12 @@ function renderExplanation() {
         ? "Korrekt! Godt klaret."
         : `Forkert. Det rigtige svar var <strong>${correctOption.name}</strong>.`;
 
+    const lastQuestion = currentQuestion === questions.length - 1;
+    const nextButtonText = lastQuestion ? "Se resultat" : "Næste spørgsmål";
     div.innerHTML = `
       <p>${resultText}</p>
       <p>${q.explanation || ""}</p>
-      <button id="next-btn">Næste spørgsmål</button>
+      <button id="next-btn">${nextButtonText}</button>
     `;
 
     questionArea.appendChild(div);
