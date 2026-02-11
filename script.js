@@ -18,20 +18,20 @@ const questions = [
         text: "Hvilke bælgfrugter har flest danskere prøvet at spise?",
         explanation: "De tre typer af bælgfrugter som flest danskere har prøvet at spise er edamamebønner, kikærter og kidneybønner. Under 5% har prøvet at spise sorterne ingridærter og gråærter.",
         options: [
-            { name: "Edamamebønner", true: true, img: "/images/Edamame_bean.png" },
-            { name: "Kikærter", true: false, img: "/images/Chickpea.png" },
-            { name: "Grønne linser", true: false, img: "/images/Green_lentil.png" },
-            { name: "Røde linser", true: false, img: "/images/Red_lentil.png"}
+            { name: "Edamamebønner", true: true, img: "./images/Edamame_bean.png" },
+            { name: "Kikærter", true: false, img: "./images/Chickpea.png" },
+            { name: "Grønne linser", true: false, img: "./images/Green_lentil.png" },
+            { name: "Røde linser", true: false, img: "./images/Red_lentil.png"}
         ]
     },
     {
         text: "Hvor mange danskere kender Fødevarestyrelsens officielle anbefalinger om, at man bør spise 100 gram bælgfrugter om dagen?",
         explanation: "Fødevarestyrelsen anbefaler, at man spiser mindre kød, og mere fisk og bælgfrugter. De anbefaler, at man spiser ca. 100 gram bælgfrugter om dagen. Bælgfrugterne er både en god kilde til protein og andre næringsstoffer og er samtidig blandt de fødevarer, der har det laveste klimaaftryk.",
         options: [
-            { name: "27% af befolkningen", true: false, img: "/images/27.png" },
-            { name: "17% af befolkningen", true: false, img: "/images/17.png" },
-            { name: "4% af befolkningen", true: true, img: "/images/4.png" },
-            { name: "1,5% af befolkningen", true: false, img: "/images/15.png"}
+            { name: "27% af befolkningen", true: false, img: "./images/27.png" },
+            { name: "17% af befolkningen", true: false, img: "./images/17.png" },
+            { name: "4% af befolkningen", true: true, img: "./images/4.png" },
+            { name: "1,5% af befolkningen", true: false, img: "./images/15.png"}
         ]
     },
     {
