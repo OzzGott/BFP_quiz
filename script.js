@@ -18,20 +18,20 @@ const questions = [
         text: "Hvilke bælgfrugter har flest danskere prøvet at spise?",
         explanation: "De tre typer af bælgfrugter som flest danskere har prøvet at spise er edamamebønner, kikærter og kidneybønner. Under 5% har prøvet at spise sorterne ingridærter og gråærter.",
         options: [
-            { name: "Edamamebønner", true: true, img: "https://images.unsplash.com/photo-1730596140741-6cc4963ad816?q=80&w=1065&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-            { name: "Kikærter", true: false, img: "https://images.unsplash.com/photo-1515543904379-3d757afe72e4?q=80&w=985&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-            { name: "Baked beans", true: false, img: "https://images.unsplash.com/photo-1669655139624-7557832859db?q=80&w=1114&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-            { name: "Sortøjede bønner", true: false, img: "https://images.unsplash.com/photo-1515347272087-685ce5a1fc8b?q=80&w=986&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
+            { name: "Edamamebønner", true: true, img: "/images/Edamame_bean.png" },
+            { name: "Kikærter", true: false, img: "/images/Chickpea.png" },
+            { name: "Grønne linser", true: false, img: "/images/Green_lentil.png" },
+            { name: "Røde linser", true: false, img: "/images/Red_lentil.png"}
         ]
     },
     {
         text: "Hvor mange danskere kender Fødevarestyrelsens officielle anbefalinger om, at man bør spise 100 gram bælgfrugter om dagen?",
         explanation: "Fødevarestyrelsen anbefaler, at man spiser mindre kød, og mere fisk og bælgfrugter. De anbefaler, at man spiser ca. 100 gram bælgfrugter om dagen. Bælgfrugterne er både en god kilde til protein og andre næringsstoffer og er samtidig blandt de fødevarer, der har det laveste klimaaftryk.",
         options: [
-            { name: "27% af befolkningen", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
-            { name: "17% af befolkningen", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
-            { name: "4% af befolkningen", true: true, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
-            { name: "1,5% af befolkningen", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"}
+            { name: "27% af befolkningen", true: false, img: "/images/27.png" },
+            { name: "17% af befolkningen", true: false, img: "/images/17.png" },
+            { name: "4% af befolkningen", true: true, img: "/images/4.png" },
+            { name: "1,5% af befolkningen", true: false, img: "/images/15.png"}
         ]
     },
     {
