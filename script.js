@@ -169,7 +169,7 @@ function showEndScreen() {
     } else if (points >= questions.length / 2) {
         comment = "Godt klaret! Du har en fin forståelse for bælgfrugter.";
     } else {
-        comment = "Øv, du kan prøve igen og lære mere om bælgfrugter!";
+        comment = "Øv, du kan prøve igen og lære mere om bælgfrugter.";
     }
     scoreComment.textContent = comment;
 }
