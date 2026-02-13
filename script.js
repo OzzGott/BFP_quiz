@@ -16,7 +16,7 @@ const startButton = document.getElementById('start-game-btn');
 const questions = [
     {
         text: "Hvilke bælgfrugter har flest danskere prøvet at spise?",
-        explanation: "De tre typer af bælgfrugter som flest danskere har prøvet at spise er edamamebønner, kikærter og kidneybønner. Under 5% har prøvet at spise sorterne ingridærter og gråærter.",
+        explanation: "De tre bælgfruger, flest danskere har prøvet, er edamamebønner (60%), kikærter, (55%) og kidneybønner (53%), mens under 5% har prøvet ingridærter og gråærter",
         options: [
             { name: "Edamamebønner", true: true, img: "./images/Edamame_bean.png" },
             { name: "Kikærter", true: false, img: "./images/Chickpea.png" },
@@ -26,7 +26,7 @@ const questions = [
     },
     {
         text: "Hvor mange danskere kender Fødevarestyrelsens officielle anbefalinger om, at man bør spise 100 gram bælgfrugter om dagen?",
-        explanation: "Fødevarestyrelsen anbefaler, at man spiser mindre kød, og mere fisk og bælgfrugter. De anbefaler, at man spiser ca. 100 gram bælgfrugter om dagen. Bælgfrugterne er både en god kilde til protein og andre næringsstoffer og er samtidig blandt de fødevarer, der har det laveste klimaaftryk.",
+        explanation: "Fødevarestyrelsen anbefaler, at spise mindre kød, mere fisk og flere bælgfrugter. De anbefaler, at man spiser 100 gram bælgfrugter om dagen. Bælgfrugterne er både en god kilde til protein og andre næringsstoffer og er samtidig blandt de fødevarer, der har det laveste klimaaftryk.",
         options: [
             { name: "27% af befolkningen", true: false, img: "./images/27.png" },
             { name: "17% af befolkningen", true: false, img: "./images/17.png" },
@@ -36,7 +36,7 @@ const questions = [
     },
     {
         text: "Hvor i Danmark er der flest, der spiser bælgfrugter?",
-        explanation: "I Region Hovedstaden er det over halvdelen, 52%, der spiser bælgfrugter ugentligt. I Region Midtjylland og Region Syddanmark er det 42%, i Region Sjælland 37% og i Region Nordjylland 32%",
+        explanation: "I Region Hovedstaden er det over halvdelen (52%), der spiser bælgfrugter ugentligt. I Region Midtjylland og Region Syddanmark er det 42%, i Region Sjælland 37% og i Region Nordjylland 32%.",
         options: [
             { name: "Region Hovedstaden", true: true, img: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Map_DK_Region_Hovedstaden.png" },
             { name: "Region Midtjylland", true: false, img: "https://upload.wikimedia.org/wikipedia/commons/b/ba/Map_DK_Region_Midtjylland.png" },
@@ -45,38 +45,38 @@ const questions = [
         ]
     },
     {
-        text: "Spiser de danskere, der træner meget (4+ gange om ugen) bælgfrugter oftere eller sjældnere end resten?",
-        explanation: "Mens 14% af folk der træner under 4 gange om ugen har skiftet kødet ud med bælg inden for den seneste uge, er det hele 26% af de fysisk aktive",
+        text: "Spiser danskere, der træner mindst fire gange om ugen, bælgfrugter oftere eller sjældnere end andre?",
+        explanation: "Mens 14 % af dem, der træner mindre end fire gange om ugen, har erstattet kød med bælgfrugter inden for den seneste uge, gælder det hele 26 % af de mere fysisk aktive.",
         options: [
-            { name: "Oftere", true: true, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
-            { name: "Sjældnere", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
-            { name: "Det samme", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
+            { name: "Oftere", true: true, img: "./images/up.png" },
+            { name: "Sjældnere", true: false, img: "./images/down.png" },
+            { name: "Det samme", true: false, img: "./images/equal.png" },
             //{ name: "D", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"}
         ]
     },
     {
-        text: "Hvilke kantiner er bedst til at inspirere os til at spise bælgfrugter?",
-        explanation: "Har du selv oplevet at blive inspireret af kantinen på arbejde?",
+        text: "Hvilke kantiner inspirerer bedst til at spise bælgfrugter?",
+        explanation: "Blandt danskere med adgang til kantine oplever 4 ud af 10, at den inspirerer til flere bælgfrugter. Offentligt ansatte bliver især inspireret: 46 % mod 37 % i den private sektor. <br> <br> Har du selv oplevet at blive inspireret af kantinen på arbejde?",
         options: [
-            { name: "Private", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
-            { name: "Offentlige", true: true, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
+            { name: "Private", true: false, img: "./images/private.png" },
+            { name: "Offentlige", true: true, img: "./images/public.png" },
             //{ name: "C", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
             //{ name: "D", true: true, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"}
         ]
     },
     {
-        text: "Hvad er den største motivationsfaktor for danskerne til at spise flere bælgfrugter?",
-        explanation: "Sundhed er den største årsag til, at danskerne gerne vil spise flere bælgfrugter. Der er også store sundhedsfordele at komme efter. Bælgfrugterne har et højt fiberindhold, der har en positiv effekt på tarmmikrobiomet og fordøjelsen. Samtidig er de rige på protein, jern, zink, folsyre og kalium.",
+        text: "Hvad motiverer danskerne mest til at spise flere bælgfrugter?",
+        explanation: "Sundhed er den største motivation for at spise flere bælgfrugter – 88 % angiver det som den vigtigste årsag. Bælgfrugterne er rige på fiber, protein, jern, zink, folsyre og kalium, hvilket gavner både fordøjelsen og tarmfloraen. Herefter følger mæthed (61 %) og klimafordele (58 %).",
         options: [
-            { name: "Bælgfrugter er bedre for klimaet", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
-            { name: "Bælgfrugter er sunde", true: true, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
-            { name: "Bælgfrugter mætter godt", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" },
-            { name: "Bælgfrugter er billigere", true: false, img: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"}
+            { name: "Bælgfrugter er bedre for klimaet", true: false, img: "./images/climate.png" },
+            { name: "Bælgfrugter er sunde", true: true, img: "./images/healthy.png" },
+            { name: "Bælgfrugter mætter godt", true: false, img: "./images/full.png" },
+            { name: "Bælgfrugter er billigere", true: false, img: "./images/money.png"}
         ]
     },
     {
-        text: "Er danskerne bange for at få for få proteiner, hvis de erstatter kødet med bælgfrugter?",
-        explanation: "53% af danskerne svarer, at de er uenige i, at de er bange for ikke at få nok proteiner, hvis de i nogle måltider erstatter bælgfrugter med kød. Bælgfrugterne har også et højt proteinindhold. Eksempelvis indeholder kikærter 20% protein, røde linser 27% protein og sojabønner hele 36% protein",
+        text: "Er danskerne bange for at få for lidt protein, hvis de skifter kødet ud med bælgfrugter?",
+        explanation: "53 % af danskerne svarer, at de er uenige i, at de er bange for ikke at få nok protein, hvis de i nogle måltider erstatter kød med bælgfrugter. Bælgfrugterne har også et højt proteinindhold i tørret vægt: kikærter indeholder 20%, røde linser 27% og sojabønner hele 36% protein.",
         options: [
             { name: "Flertallet er bange", true: false, img: "https://images.unsplash.com/photo-1583264277139-3d9682e44b03?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
             { name: "Flertallet er ikke bange", true: true, img: "https://images.unsplash.com/photo-1713947505435-b79c33c6c91a?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
