@@ -137,8 +137,8 @@ function renderExplanation() {
     div.className = "explanation";
 
     const resultText = lastSelectedOption.true
-        ? "Korrekt! Godt klaret."
-        : `Forkert. Det rigtige svar er <strong>${correctOption.name}</strong>.`;
+        ? "<mark style='background-color: #32CD32;'>Korrekt! Godt klaret.</mark>"
+        : `<mark style='background-color: red;'>Forkert.</mark> Det rigtige svar er <strong>${correctOption.name}</strong>.`;
 
     const lastQuestion = currentQuestion === questions.length - 1;
     const nextButtonText = lastQuestion ? "Se resultat" : "Næste spørgsmål";
