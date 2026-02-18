@@ -5,13 +5,17 @@
     --bg: #f8f8f8;
 }
 
+@font-face {
+  font-family: 'Bloc';
+  src: url('./fonts/bloc.otf') format('opentype');
+}
 /* Added box-sizing universally to prevent padding from expanding widths */
 *, *::before, *::after {
     box-sizing: border-box;
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: var(--bg);
     display: flex;
     justify-content: center;
@@ -124,6 +128,8 @@ button:hover {
     font-size: clamp(1.8rem, 5vw, 2rem);
     width: 100%;
     margin-top: 0;
+    font-family: 'Bloc', sans-serif;
+    font-weight: normal;
 }
 
 /*Special atts for desktop/tablets*/
