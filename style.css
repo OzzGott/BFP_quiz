@@ -68,6 +68,13 @@ body {
     text-align: left;
 }
 
+.credit {
+    font-size: 0.75rem;
+    color: #888;
+    margin-top: 0.5rem;
+    grid-column: 1 / -1;
+}
+
 /*If last question is even in the list (so odd from 1) then */
 #question-area .option:nth-child(even):last-child {
     grid-column: 1 / -1;
