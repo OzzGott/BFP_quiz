@@ -16,6 +16,7 @@ const startButton = document.getElementById('start-game-btn');
 const questions = [
     {
         text: "Hvilke bælgfrugter har flest danskere prøvet at spise?",
+        credit: "Fotos fra Aarstiderne",
         explanation: "De tre bælgfruger, flest danskere har prøvet, er edamamebønner (60 %), kikærter (55 %) og kidneybønner (53 %), mens under 5 % har prøvet ingridærter og gråærter",
         options: [
             { name: "Edamamebønner", true: true, img: "./images/Edamame_bean.png" },
@@ -116,6 +117,12 @@ function renderQuestion() {
         div.addEventListener('click', () => selectOption(option));
         questionArea.appendChild(div);
     });
+    if (q.credit){
+        const credit = document.createElement('p');
+        credit.className = "credit";
+        credit.textContent = q.credit;
+        questionArea.appendChild(credit);
+    }
 }
 
 function selectOption(option) {
